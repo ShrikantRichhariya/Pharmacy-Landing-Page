@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+/* ----------------------------------- */
+
+/* table,
+th,
+td {
+  text-align: center;
+
+  border-collapse: collapse;
+  border-color: grey;
+  font-size: 2vh;
+} */
+
+
+/* th {
+  color: #3e3e3eec;
+}
+table {
+  width: 50vh;
+}
+td,
+th {
+  height: 2vh;
+}
+table {
+  margin-top: 50vh;
+  margin-left: 0vh;
+  width: 50vh;
+} */
+/* ************************************************************************* */
+
+
+.heading{
+
+}
+.btn1{
+  border-color: transparent;
+  border: transparent;
+  height: 5vh;
+  justify-content: end;
+  background-color:white;
+  width: 66vh;
+  margin-left: -2.5vh;
+}
+/* table th {
+  color: #fff;
+} */
+/* 
+table tr {
+  transition: all 1s ease-in-out;
+}
+table tr.slide-out {
+  transform: translateX(100%);
+} */

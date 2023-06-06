@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import Card from './Components/Card';
+import { Routes, Route } from 'react-router-dom';
+import Dummy from './Components/Dummy';
+import Pharmacy from './Components/Pharmacy';
+
+
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <Routes>
+        <Route path="/" element={<Card />} />
+        <Route path="/dummy" element={<Dummy />} />
+        <Route path="/pharmacy/:pharmacyName" element={<Pharmacy/>}/>
+      </Routes>
+      </div>
+    </>
   );
 }
+
+
+
 
 export default App;

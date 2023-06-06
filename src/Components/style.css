@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  table,
+  th,
+  td {
+    text-align: center;
+  
+    border-collapse: collapse;
+    border-color: grey;
+    font-size: 2vh;
+  }
+  
+  td {
+    /* background-color: #96d4d4; */
+  }
+  th {
+    color: #3e3e3eec;
+  }
+  table {
+    width: 50%;
+  }
+  td,
+  th {
+    height: 2vh;
+  }
+  table {
+    margin-top: 25vh;
+    margin-left: 49vh;
+  }
+  /* ************************************************************************* */
+  
+  table {
+    border-radius: 2vh;
+  }
+  table th,
+  table td {
+    padding: 0.25em 0.5em;
+    text-align: left;
+    vertical-align: top;
+  }
+  /* table th {
+    color: #fff;
+  } */
+  table td {
+    /* background-color: #eee; */
+  }
+  table tr {
+    transition: all 1s ease-in-out;
+  }
+  table tr.slide-out {
+    transform: translateX(100%);
+  }
+  
